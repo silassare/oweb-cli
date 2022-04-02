@@ -1,0 +1,9 @@
+<template>
+<%$.template%>
+</template>
+
+<script lang="<%$.lang%>">
+<%$.script%>
+</script>
+
+<style lang="less"></style>

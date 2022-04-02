@@ -1,0 +1,39 @@
+{
+	"name": "oweb-cli",
+	"version": "1.0.0",
+	"description": "O'Web CLI tool.",
+	"main": "src/index.js",
+	"bin": {
+		"oweb": "bin/index.js"
+	},
+	"typings": "types/oweb.d.ts",
+	"keywords": [
+		"oweb",
+		"O'Web",
+		"cli"
+	],
+	"files": [
+		"src",
+		"assets",
+		"dist",
+		"bin",
+		"src",
+		"types/*.d.ts"
+	],
+	"scripts": {
+		"build": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"mkdirp": "^1.0.3",
+		"otpl-js": "latest",
+		"vue-template-compiler": "^2.6.4"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/silassare/oweb-cli.git"
+	},
+	"author": "Emile Silas Sare (emile.silas@gmail.com)",
+	"license": "MIT"
+}

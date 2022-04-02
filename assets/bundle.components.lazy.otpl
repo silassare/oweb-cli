@@ -1,0 +1,20 @@
+/**
+ * Auto-generated file, please don't edit
+ *
+ * O'Web CLI <%$.oweb_version%>
+ *
+ * <%$.bundle_date%>
+ */
+
+import Vue from "vue";
+<%loop($.components:$item){%>
+<%if($item.isPage){%>
+import <%$item.class%> from "./<%$item.dir%>/<%$item.baseFileName%>.vue";<%}%><%}%>
+
+<%loop($.components:$item){%>
+<%if(!$item.isPage){%>
+Vue.component("<%$item.componentName%>", () => import("./<%$item.dir%>/<%$item.baseFileName%>.vue"));
+<%} else {%>
+Vue.component("<%$item.componentName%>",<%$item.class%>);
+<%}%>
+<%}%>

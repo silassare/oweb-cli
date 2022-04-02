@@ -1,0 +1,39 @@
+lockfileVersion: 5.3
+
+specifiers:
+  mkdirp: ^1.0.3
+  otpl-js: latest
+  vue-template-compiler: ^2.6.4
+
+dependencies:
+  mkdirp: 1.0.4
+  otpl-js: 1.1.7
+  vue-template-compiler: 2.6.14
+
+packages:
+
+  /de-indent/1.0.2:
+    resolution: {integrity: sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0=}
+    dev: false
+
+  /he/1.2.0:
+    resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
+    hasBin: true
+    dev: false
+
+  /mkdirp/1.0.4:
+    resolution: {integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dev: false
+
+  /otpl-js/1.1.7:
+    resolution: {integrity: sha512-PcSxj4Lja9xxpZJ2CYNtYX1Bvs/oTuXIkkoBd32PaE96PXv006g/khChuUhU4w8A55vADJ2z2x7RhTO7G3evww==}
+    dev: false
+
+  /vue-template-compiler/2.6.14:
+    resolution: {integrity: sha512-ODQS1SyMbjKoO1JBJZojSw6FE4qnh9rIpUZn2EUT86FKizx9uH5z6uXiIrm4/Nb/gwxTi/o17ZDEGWAXHvtC7g==}
+    dependencies:
+      de-indent: 1.0.2
+      he: 1.2.0
+    dev: false

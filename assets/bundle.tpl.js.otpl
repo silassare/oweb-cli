@@ -1,0 +1,21 @@
+/**
+ * Auto-generated file, please don't edit
+ *
+ * O'Web CLI <%$.oweb_version%>
+ *
+ * <%$.bundle_date%>
+ */
+
+"use strict";
+
+(function(w,k,t,c) {
+var l = w[k] = w[k] || {}, f = function(n,v){l[n] = v;return f;};
+w[t] = w[t] || function (path) {
+	return c? new Function(l[path]) : l[path];
+};
+
+f<%loop( $.files : $path : $content ){%>("<%$path%>","<%$content%>")
+
+<%}%>;
+
+})(window,"__O_LOCAL_TEMPLATE_FILES","templateLoad",<%@if($.compiled,1,0)%>);
